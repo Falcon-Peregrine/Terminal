@@ -1,0 +1,7 @@
+PS1="\[$(tput setaf 166)\]\u";      #orange user
+PS1+="\[$(tput setaf 228)\]@\h ";   # yellow host
+PS1+="\[$(tput setaf 71)\]\W -> ";
+PS1+="\[$(tput sgr0)\]";
+export PS1;
+
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"

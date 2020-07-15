@@ -1,0 +1,38 @@
+cp .bash_propmpt ~/
+cp .bash_profile ~/
+cp .bashrc ~/
+source .bash_prompt
+
+#已经添加sublimetext为subl作为变量
+
+
+
+
+
+
+
+
+Mac下分為zsh和bash的終端，如果要運行bash而非zsh，則運行命令來切換
+chsh -s /bin/bash
+chsh -s /bin/zsh 
+
+重新啟動并读取bashrc設置,可以读取.bash_prompt
+source .bashrc
+
+
+.bash_profile is a login shell file, it runs every time you open the terminal
+.bashrz is a non-login or subshell
+
+
+cd
+touch .bash_profile
+touch .bashrz
+----------
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
+------------
+
+
+
+
