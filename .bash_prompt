@@ -118,3 +118,6 @@ PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
 
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+alias dt="cd ~/Desktop"
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder'
